@@ -20,7 +20,7 @@ You can then choose option `1` for a new joke or `2` to exit.
    zip deployment.zip index.js
    ```
 2. In the AWS Console, go to **Lambda → Create function**.
-3. Choose **Author from scratch**, give your function a name (for example `daily-jokes-api`), and pick the **Node.js 18.x** runtime.
+3. Choose **Author from scratch**, give your function a name (for example `daily-jokes-api`), and pick the **Node.js 22.x** runtime.
 4. Leave the default execution role or create a basic one if needed, then click **Create function**.
 5. Under the **Code** tab select **Upload from → .zip file** and upload `deployment.zip`.
 6. Set the **Handler** field to `index.handler`, then click **Save**.
